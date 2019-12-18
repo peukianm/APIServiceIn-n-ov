@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration  xmlns="http://logging.apache.org/log4j/2.0/config" >
+    <Properties>
+        <Property name="basePath">/logs</Property>
+    </Properties>
+    <Appenders>
+        <!-- File Appender -->
+        <File name="FILE" fileName="${basePath}/apiserviceinnov.log" append="true">
+            <PatternLayout pattern="%-5p | %d{dd-MM-yyyy HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n" />
+        </File>
+        <!-- Console Appender -->
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <!--<PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n" /> -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} | (%F:%L) - %m%n" />
+        </Console>
+    </Appenders>
+    <Loggers>               
+        <Logger name="apiserviceinnov" level="debug" additivity="true">
+            <appender-ref ref="FILE" level="debug" />
+        </Logger>
+        <Root level="debug">              
+            <AppenderRef ref="STDOUT" />
+        </Root>
+    </Loggers>
+</Configuration>
