@@ -32,6 +32,7 @@ public class RoutingGHClient {
 		return response;
 	}
 		
+	
 	@SuppressWarnings("unused")
 	private void start() {
 //		Client client = ClientBuilder.newClient( new ClientConfig().register( LoggingFilter.class ) );	 
