@@ -57,11 +57,11 @@ public class VRP_DemoExample {
         vehicle1.setTypeId("vehicle_type_1");
         vehicles.add(vehicle1);
 
-        Vehicle vehicle2 = new Vehicle();
+       /* Vehicle vehicle2 = new Vehicle();
         vehicle2.setVehicleId("vehicle2");
         vehicle2.setStartAddress(createAddress("erfurt", 50.977723, 11.028771));
         vehicle2.setTypeId("vehicle_type_1");
-        vehicles.add(vehicle2);
+        vehicles.add(vehicle2); */
 
         request.setVehicles(vehicles);
 
@@ -107,7 +107,7 @@ public class VRP_DemoExample {
         kassel.setSize(Arrays.asList(1));
         services.add(kassel);
 
-        Service dortmund = createService("dortmund", 51.508742, 7.500916);
+      /*  Service dortmund = createService("dortmund", 51.508742, 7.500916);
         dortmund.setName("drink_beer_in_dortmund");
         dortmund.setSize(Arrays.asList(1));
         services.add(dortmund);
@@ -125,7 +125,7 @@ public class VRP_DemoExample {
         Service hof = createService("hof", 50.310392, 11.8927);
         hof.setName("drink_somethingelse_in_hof");
         hof.setSize(Arrays.asList(1));
-        services.add(hof);
+        services.add(hof); */
 
         request.setServices(services);
 

@@ -19,9 +19,12 @@ import io.swagger.client.model.*;
 import okhttp3.OkHttpClient;
 import io.swagger.client.api.*;
 
-public class RoutingGHClient {
+public class TestRoutingGHClient {
 	
 	public static void main(String[] args) {
+		
+		
+		
 
 		// SWAGGER!!!  run once thread safe
 		ApiClient defaultClient = Configuration.getDefaultApiClient();

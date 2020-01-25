@@ -12,8 +12,9 @@ public class UncaughtException extends Throwable implements ExceptionMapper<Thro
     @Override
     public Response toResponse(Throwable exception)
     {
-    	System.out.println("WRONG!!!!!");
-    	System.out.println(exception.getMessage());
+    	System.out.println("Uncaught Exception!!!!!!!!!!!!!!!!!!!");
+    	//System.out.println(exception.getMessage());
+    	exception.printStackTrace();
     	return Response.status(500).entity("Something bad happened. Please try again !!").type("text/plain").build();
     }
 }

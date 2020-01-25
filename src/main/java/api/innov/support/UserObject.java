@@ -1,14 +1,73 @@
 package api.innov.support;
 
-public class UserObject {
+import java.io.Serializable;
+
+public class UserObject implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2490510490445782679L;
 	private String name;
 	private String surname;
+	private String username;
 	private String address;
 	private String id;
+	private String role;
 	private String apiKey;
 	private CompanyObject company;
+	private String password;
 	
+	public UserObject(String name, String surname, String username, String id, String address, String password, String apikey, CompanyObject company, String role) {
+		this.name = name;
+		this.surname = surname;
+		this.username = username;
+		this.id = id;
+		this.address = address;
+		this.password = password;
+		this.apiKey = apikey;
+		this.role = role;
+		this.company = company;
+	}
+	
+	
+	
+	public String getUsername() {
+		return username;
+	}
+
+
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+
+
+	public String getRole() {
+		return role;
+	}
+
+
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+
+
+	public String getPassword() {
+		return password;
+	}
+
+
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+
 	public String getName() {
 		return name;
 	}

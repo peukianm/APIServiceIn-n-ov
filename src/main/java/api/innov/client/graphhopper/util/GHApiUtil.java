@@ -1,13 +1,15 @@
 package api.innov.client.graphhopper.util;
 
 import api.innov.client.graphhopper.util.ApiClient;
+import api.innov.util.SystemParameters;
 
 public class GHApiUtil {
 
     public static ApiClient createClient() {
         ApiClient client = new ApiClient().setDebugging(true);
         //client.setApiKey(System.getProperty("graphhopper.key", ""));
-        client.setApiKey("403448b0-df50-4d00-873c-b63a4479c313");
+        System.out.println("API in GH UTILITY="+SystemParameters.getInstance().getProperty("API_KEY1"));
+        client.setApiKey(SystemParameters.getInstance().getProperty("API_KEY1"));
         return client;
     }
 }
