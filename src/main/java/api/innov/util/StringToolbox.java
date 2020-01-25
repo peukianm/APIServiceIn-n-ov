@@ -8,7 +8,7 @@ import java.util.*;
 /**
  * Provides String utility methods.
  * 
- * @author FADO development team
+ * @author Michalis Pefkianakis
  */
 
 public class StringToolbox {

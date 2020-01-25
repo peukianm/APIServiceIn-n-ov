@@ -18,7 +18,7 @@
 package api.innov.util;
 
 /**
- * @author Peter Karich
+ * @author Michalis Pefkianakis
  */
 public class NumHelper {
     private final static double DEFAULT_PRECISION = 1e-6;

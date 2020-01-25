@@ -3,6 +3,10 @@ package api.innov.exception;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class InvalidRequestParamsException extends Exception implements ExceptionMapper<MissingFileException> {
 	
 	private static final long serialVersionUID = 1L;

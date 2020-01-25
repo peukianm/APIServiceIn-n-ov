@@ -7,6 +7,10 @@ import org.apache.logging.log4j.Logger;
 import api.innov.support.Credentials;
 import api.innov.support.UserObject;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class APIServiceInnovCommon {
 	
 	public static void logServiceError(Exception ex, Logger logger) {

@@ -12,6 +12,11 @@ import api.innov.client.graphhopper.api.RouteOptimizationApi;
 import api.innov.client.graphhopper.util.GHApiUtil;
 import okhttp3.*;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 public class TestFunct {
 
 	public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");

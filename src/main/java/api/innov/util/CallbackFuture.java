@@ -5,10 +5,10 @@ import java.util.concurrent.CompletableFuture;
 
 import okhttp3.*;
 
-
-
-
-
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 
 public class CallbackFuture extends CompletableFuture<Response> implements Callback {
 

@@ -12,6 +12,8 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
+ * @author Michalis Pefkianakis
+ *
  * A simple example for querying the Routing API.
  */
 public class RoutingExample {

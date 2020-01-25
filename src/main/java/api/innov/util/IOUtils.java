@@ -12,7 +12,7 @@ import java.util.* ;
  * Most of the methods of this class are static in order to be accesible without the
  * creation of an instance of the class. This is due to the heavy use of methods.     
  *   
- * @author FADO Development team.
+ * @author Michalis Pefkianakis.
 */
 public class IOUtils
 {		

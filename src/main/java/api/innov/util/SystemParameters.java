@@ -16,6 +16,10 @@ import org.apache.logging.log4j.core.config.Configuration;
 import org.apache.logging.log4j.core.config.LoggerConfig;
 import org.apache.logging.log4j.core.layout.PatternLayout;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class SystemParameters {
 
     /**

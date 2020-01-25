@@ -20,6 +20,11 @@ import io.jsonwebtoken.*;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.Claims;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 public class APIServiceInnovUtil {
 	
     private static final int iterations = Integer.parseInt(SystemParameters.getInstance().getProperty("iterations"));

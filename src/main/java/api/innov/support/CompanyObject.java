@@ -1,5 +1,10 @@
 package api.innov.support;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 public class CompanyObject {
 	private String name;
 	private String id;

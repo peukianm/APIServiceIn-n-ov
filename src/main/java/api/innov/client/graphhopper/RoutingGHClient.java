@@ -16,7 +16,10 @@ import api.innov.common.APIServiceInnovCommon;
 import api.innov.util.SystemParameters;
 import okhttp3.*;
  
-
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class RoutingGHClient {
 
 	private static final Logger logger = LogManager.getLogger(RoutingGHClient.class);

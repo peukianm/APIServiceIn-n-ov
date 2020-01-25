@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Let us now assume that you want to make this round trip a bit more exciting
+ * @author Michalis Pefkianakis
+ *
+  * Let us now assume that you want to make this round trip a bit more exciting
  * and challenging, thus you decide to switch from boring car to bike (you will
  * definitely be a hero if you manage the round trip by bike). Here, you cannot
  * use the default vehicle type anymore, but you need to define your bike

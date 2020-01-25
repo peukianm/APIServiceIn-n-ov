@@ -18,6 +18,10 @@ import api.innov.client.graphhopper.util.Pair;
 
 import java.util.List;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class ApiKeyAuth implements Authentication {
   private final String location;
   private final String paramName;

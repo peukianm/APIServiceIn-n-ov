@@ -4,8 +4,9 @@ import api.innov.client.graphhopper.api.GeocodingApi;
 import api.innov.client.graphhopper.model.GeocodingLocation;
 import api.innov.client.graphhopper.model.GeocodingResponse;
 import api.innov.client.graphhopper.util.GHApiUtil;
-
 /**
+ * @author Michalis Pefkianakis
+ *
  * A simple geocoding request.
  */
 public class GeocodingExample {

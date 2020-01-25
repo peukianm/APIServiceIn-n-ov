@@ -18,7 +18,7 @@
 package api.innov.util;
 
 /**
- * @author Peter Karich
+ * @author Michalis Pefkianakis
  */
 public class Parameters {
     /* Parameters with an 'INIT' prefix are used as defaults and/or are configured at start.*/

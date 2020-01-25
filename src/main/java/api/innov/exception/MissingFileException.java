@@ -4,6 +4,11 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 @Provider
 public class MissingFileException extends Exception implements ExceptionMapper<MissingFileException> {
 	private static final long serialVersionUID = 1L;

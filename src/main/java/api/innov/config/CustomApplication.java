@@ -14,6 +14,10 @@ import org.glassfish.jersey.server.*;
  * Manual Register JSONP
  *
  */
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 //@ApplicationPath("/services")
 public class CustomApplication extends ResourceConfig 
 {

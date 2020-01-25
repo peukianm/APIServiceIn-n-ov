@@ -23,6 +23,10 @@ import org.apache.commons.codec.binary.Base64;
  * This filter verify the access permissions for a user based on username and
  * passowrd provided in request
  */
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 //@Provider
 public class AuthenticationFilter implements javax.ws.rs.container.ContainerRequestFilter {
 

@@ -2,11 +2,14 @@ package api.innov.support;
 
 import java.io.Serializable;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 public class UserObject implements Serializable {
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -2490510490445782679L;
 	private String name;
 	private String surname;

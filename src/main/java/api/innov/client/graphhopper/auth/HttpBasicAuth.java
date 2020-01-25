@@ -21,6 +21,10 @@ import java.util.List;
 
 import java.io.UnsupportedEncodingException;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class HttpBasicAuth implements Authentication {
     private String username;
     private String password;

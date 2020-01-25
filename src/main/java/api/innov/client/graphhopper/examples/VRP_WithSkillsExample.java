@@ -9,7 +9,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by schroeder on 21/05/15.
+ * @author Michalis Pefkianakis
+ *
  */
 public class VRP_WithSkillsExample {
 

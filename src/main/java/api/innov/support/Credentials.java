@@ -2,6 +2,11 @@ package api.innov.support;
 
 import java.io.Serializable;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 public class Credentials implements Serializable {
 	
 	/**

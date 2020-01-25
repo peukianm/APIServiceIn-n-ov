@@ -18,6 +18,10 @@ import api.innov.client.graphhopper.util.Pair;
 
 import java.util.List;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public interface Authentication {
     /**
      * Apply authentication settings to header and query params.

@@ -8,6 +8,11 @@ import javax.servlet.http.*;
 import api.innov.util.StringToolbox;
 import api.innov.util.SystemParameters;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 public class BootstrapServlet extends HttpServlet {
 
 	// private static final String CONTENT_TYPE = "text/html; charset=UTF-8";

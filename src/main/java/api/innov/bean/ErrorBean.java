@@ -5,9 +5,12 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.enterprise.context.RequestScoped;
 import javax.enterprise.context.SessionScoped;
-
-
 import javax.inject.Named;
+
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 
 @Named(value = "errorBean")
 @RequestScoped

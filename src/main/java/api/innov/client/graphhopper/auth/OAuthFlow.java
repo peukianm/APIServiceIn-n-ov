@@ -12,6 +12,10 @@
 
 package api.innov.client.graphhopper.auth;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public enum OAuthFlow {
     accessCode, implicit, password, application
 }

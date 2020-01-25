@@ -15,6 +15,11 @@ import javax.faces.event.ActionEvent;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
+
 @Named(value = "sessionBean")
 @SessionScoped
 public class SessionBean implements Serializable {

@@ -8,7 +8,10 @@ import org.apache.logging.log4j.Logger;
 import api.innov.util.SystemParameters;
 import okhttp3.*;
  
-
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class GeocodingGHClient {
 
 	private static final Logger logger = LogManager.getLogger(GeocodingGHClient.class);

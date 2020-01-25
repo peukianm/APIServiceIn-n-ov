@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by schroeder on 21/05/15.
+ * @author Michalis Pefkianakis
+ *
  */
 public class TSP_BiggestCitiesInGermanyExample {
 

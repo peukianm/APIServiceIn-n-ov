@@ -10,6 +10,8 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
+ * @author Michalis Pefkianakis
+ *
  * A simple Isochrone example
  */
 public class IsochroneExample {

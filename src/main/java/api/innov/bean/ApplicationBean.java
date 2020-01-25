@@ -14,7 +14,7 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 /**
  *
- * @author peukianm
+ * @author Michalis Pefkianakis
  */
 @Named(value = "applicationBean")
 @ApplicationScoped

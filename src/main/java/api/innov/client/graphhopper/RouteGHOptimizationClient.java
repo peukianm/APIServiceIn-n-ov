@@ -13,6 +13,11 @@ import api.innov.util.CallbackFuture;
 import api.innov.util.SystemParameters;
 import okhttp3.*;
 
+
+/**
+ * @author Michalis Pefkianakis
+ *
+ */
 public class RouteGHOptimizationClient {
 
 	private static final Logger logger = LogManager.getLogger(RouteGHOptimizationClient.class);

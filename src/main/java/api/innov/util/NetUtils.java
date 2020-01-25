@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
  * Have in mind that no additional attributes present for connecting through a proxy server. 
  * Should this is necessary, use the standard java options for proxy setting. 
  * 
- * @author FADO Development team.
+ * @author Michalis Pefkianakis.
  */
 
 public class NetUtils 

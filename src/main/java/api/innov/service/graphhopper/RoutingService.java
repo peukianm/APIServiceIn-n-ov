@@ -70,9 +70,11 @@ public class RoutingService {
 	public Response routingGH(@Context HttpServletRequest requestContext, @HeaderParam("message") String msg,
 			@HeaderParam("Authorization") String jwtToken)  {
 		try {			
+			//Check Token validity
 			if (jwtToken == null)
 				return Response.status(Response.Status.FORBIDDEN).build();					
 			try {
+				//Check Sender IP
 				Claims claims = APIServiceInnovUtil.decodeJWT(jwtToken);
 				if (!claims.get("IP").equals(requestContext.getLocalAddr())) 
 					throw new io.jsonwebtoken.IncorrectClaimException(null, claims, "Invalid Sender IP");

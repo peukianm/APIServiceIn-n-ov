@@ -9,8 +9,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 import java.util.*;
-
 /**
+ * @author Michalis Pefkianakis
+ *
  * This class is generally used for date formating. There are 4 predefined types of date formats (defined as final static constants).
  */
 public class FormatUtils {
